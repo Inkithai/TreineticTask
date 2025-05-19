@@ -1,4 +1,5 @@
 # Angular Posts List with Search and Pagination
+Application screenshots : https://drive.google.com/drive/folders/1uDuKolx-d4zWXEWqA9hYNH35CeOpgFD0?usp=sharing 
 
 This is a simple Angular standalone component project that displays a list of posts in a responsive grid layout with:
 
