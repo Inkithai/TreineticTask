@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-top: 1.5rem;
+  font-family: Arial, sans-serif;
+}
+
+:host {
+  display: block;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}

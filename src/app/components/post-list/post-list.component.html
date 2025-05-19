@@ -1,0 +1,11 @@
+<input type="text" placeholder="Search posts..." [(ngModel)]="searchQuery" (ngModelChange)="filterPosts()"
+  class="search-input" />
+
+<div class="post-grid">
+  <div class="post-card" *ngFor="let post of filteredPosts" [routerLink]="['/post', post.id]">
+    <h3>{{ post?.title }}</h3>
+    <p>{{ post?.body | slice: 0:100 }}...</p>
+  </div>
+</div>
+
+<button *ngIf="hasMore" (click)="loadPosts()">Load More</button>
